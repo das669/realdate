@@ -1,0 +1,313 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-image: linear-gradient(30deg, #d21a89 0%, #2373ba 96%);
+  padding: 40px 0px 10px 0px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+nav h2 {
+  color: #fff;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin: 1rem 4rem;
+}
+
+.hero {
+  margin: 0 4rem;
+  background-image: url(https://realdate.in/wp-content/uploads/slider/cache/32737d5b0ce985c760c58578e0f9b816/affectionate-couple-standing-by-decorated-wall-scaled.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.5);
+  padding: 15vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.overlay h1 {
+  color: #fff;
+  font-size: 218.75%;
+  font-family: "Libre Baskerville", "Arial";
+}
+.register {
+  padding: 1rem 1.5rem;
+  background-color: #a82f95;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.pan {
+  background-color: #08b3ab;
+  padding: 1rem;
+  color: #fff;
+}
+
+.register:hover {
+  background-color: green;
+  transition: 0.5s;
+}
+.event-highlight {
+  text-align: center;
+  padding: 1rem 0;
+}
+.event-highlight > h1 {
+  line-height: 4;
+}
+.high-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.high-cont img {
+  width: 100px;
+}
+.high-cont .containr,
+.works-cont .containr {
+  padding: 50px 50px 90px 50px;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  border-color: #a82f95;
+  border-radius: 5px 5px 5px 5px;
+}
+.containr h3 {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 2;
+}
+.containr p,
+.works-cont p {
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.works h1 {
+  line-height: 3;
+  text-align: center;
+}
+.works-cont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.works-cont img {
+  width: 150px;
+}
+.why h1 {
+  text-align: center;
+  line-height: 3;
+  font-size: 1.5em;
+}
+.reason-cont {
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  gap: 2rem;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.reacons {
+  width: 380px;
+  text-align: center;
+}
+.reacons img {
+  width: 55%;
+}
+.reacons .text {
+  text-align: start;
+}
+.text h3 {
+  color: #6ec1e4;
+  line-height: 2;
+}
+.reacons .text p {
+  letter-spacing: 1px;
+  line-height: 1.6;
+  opacity: 0.6;
+}
+.contect {
+  background-image: linear-gradient(30deg, #2373ba 0%, #d21a89 96%);
+  color: #fff;
+  padding: 40px 0px 10px 0px;
+}
+.contect .main-ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.child-ul {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.child-ul li {
+  background: #fff;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-ul li:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+.child-ul li i {
+  color: #a82f95;
+  font-size: 1.5rem;
+}
+.nth2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  gap: 10px;
+}
+.nth2 a {
+  color: #fff;
+}
+
+/* !  Regiester */
+.reg {
+  padding: 10px 0;
+}
+.gird-cont h3 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2.5rem 10px;
+  border: 5px solid #d21a89;
+}
+.girls img {
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  border-radius: 5%;
+  display: block;
+}
+
+.girl-sec {
+  visibility: hidden;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.x {
+  height: 42px;
+  width: 43px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: black;
+  border-radius: 10px;
+  color: red;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+/* 
+
+
+*/
+
+@media only screen and (max-width: 700px) {
+  .container {
+    margin: 0.5rem 0rem;
+  }
+  header {
+    padding: 15px 0 15px 12px;
+  }
+  header nav {
+    justify-content: start;
+    align-items: center;
+  }
+  nav h2 {
+    font-size: 22px;
+  }
+  nav a img {
+    width: 100px;
+  }
+  nav h2 span {
+    font-size: 12px;
+  }
+  .hero {
+    margin: 0 2rem;
+    height: 60vh;
+  }
+  .overlay {
+    padding: 3.5rem 10px;
+  }
+  .overlay h1 {
+    font-size: 28px;
+    line-height: 1.5;
+    font-family: serif;
+  }
+  .high-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .works-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .containr {
+    text-align: center;
+  }
+  .reacons .text {
+    text-align: center;
+  }
+}
